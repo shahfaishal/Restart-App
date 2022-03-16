@@ -8,9 +8,19 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    //MARK: - PROPERTY
+    @AppStorage("onboarding") var isOnboardingViewActive: Bool = true
+    
+    //MARK: - BODY
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        ZStack {
+            if isOnboardingViewActive {
+                OnboardingView()
+            } else {
+                HomeView()
+            }
+        } //: ZSTACK
     }
 }
 
