@@ -15,6 +15,7 @@
 		E28C702127E1F98B00F9E1F6 /* success.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E28C701F27E1F98B00F9E1F6 /* success.m4a */; };
 		E28C702727E1FD8F00F9E1F6 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E28C702627E1FD8F00F9E1F6 /* OnboardingView.swift */; };
 		E28C702927E1FD9C00F9E1F6 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E28C702827E1FD9C00F9E1F6 /* HomeView.swift */; };
+		E2B7CE4527E4FF9E00E5F58E /* CircleGroupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2B7CE4427E4FF9E00E5F58E /* CircleGroupView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		E28C702527E1FC6A00F9E1F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		E28C702627E1FD8F00F9E1F6 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
 		E28C702827E1FD9C00F9E1F6 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		E2B7CE4427E4FF9E00E5F58E /* CircleGroupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleGroupView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 				E28C701127E1F89D00F9E1F6 /* ContentView.swift */,
 				E28C702627E1FD8F00F9E1F6 /* OnboardingView.swift */,
 				E28C702827E1FD9C00F9E1F6 /* HomeView.swift */,
+				E2B7CE4427E4FF9E00E5F58E /* CircleGroupView.swift */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -185,6 +188,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E2B7CE4527E4FF9E00E5F58E /* CircleGroupView.swift in Sources */,
 				E28C702727E1FD8F00F9E1F6 /* OnboardingView.swift in Sources */,
 				E28C702927E1FD9C00F9E1F6 /* HomeView.swift in Sources */,
 				E28C701227E1F89D00F9E1F6 /* ContentView.swift in Sources */,
