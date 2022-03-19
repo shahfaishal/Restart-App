@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E2162D9127E5C7FA0093B4CC /* AudioPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2162D9027E5C7FA0093B4CC /* AudioPlayer.swift */; };
 		E28C701027E1F89D00F9E1F6 /* RestartApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E28C700F27E1F89D00F9E1F6 /* RestartApp.swift */; };
 		E28C701227E1F89D00F9E1F6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E28C701127E1F89D00F9E1F6 /* ContentView.swift */; };
 		E28C701427E1F8A300F9E1F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E28C701327E1F8A300F9E1F6 /* Assets.xcassets */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E2162D9027E5C7FA0093B4CC /* AudioPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioPlayer.swift; sourceTree = "<group>"; };
 		E28C700C27E1F89D00F9E1F6 /* Restart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Restart.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E28C700F27E1F89D00F9E1F6 /* RestartApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestartApp.swift; sourceTree = "<group>"; };
 		E28C701127E1F89D00F9E1F6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -94,6 +96,7 @@
 		E28C702227E1FBE300F9E1F6 /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
+				E2162D9027E5C7FA0093B4CC /* AudioPlayer.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -101,6 +104,7 @@
 		E28C702327E1FBF000F9E1F6 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				E2B7CE4427E4FF9E00E5F58E /* CircleGroupView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -111,7 +115,6 @@
 				E28C701127E1F89D00F9E1F6 /* ContentView.swift */,
 				E28C702627E1FD8F00F9E1F6 /* OnboardingView.swift */,
 				E28C702827E1FD9C00F9E1F6 /* HomeView.swift */,
-				E2B7CE4427E4FF9E00E5F58E /* CircleGroupView.swift */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -193,6 +196,7 @@
 				E28C702927E1FD9C00F9E1F6 /* HomeView.swift in Sources */,
 				E28C701227E1F89D00F9E1F6 /* ContentView.swift in Sources */,
 				E28C701027E1F89D00F9E1F6 /* RestartApp.swift in Sources */,
+				E2162D9127E5C7FA0093B4CC /* AudioPlayer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -323,6 +327,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Restart/Preview Content\"";
+				DEVELOPMENT_TEAM = BJWYP493R5;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Restart/Info.plist;
@@ -353,6 +358,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Restart/Preview Content\"";
+				DEVELOPMENT_TEAM = BJWYP493R5;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Restart/Info.plist;
